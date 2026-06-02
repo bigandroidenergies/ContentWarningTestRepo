@@ -18,7 +18,7 @@ let userStore = [
     username: 'bob_qa',
     email: 'bob@example.com',
     displayName: 'Bob Quality',
-    bio: 'QA engineer focused on compatibility testing.',
+    bio: 'QA engineer focused on mobile testing.',
     createdAt: '2024-01-12T14:30:00Z',
     deletedAt: null,
   },
