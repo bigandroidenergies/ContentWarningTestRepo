@@ -43,3 +43,8 @@ This document describes the lightweight moderation flow used by the sample app d
 - Keep at least one item in each resolution state for list/filter testing.
 - Include a mix of low, medium, and high severities to exercise banner vs. interstitial UI.
 - Preserve stable IDs in fixture data so screenshots can be compared across runs.
+
+## Sample Seed Data
+
+Use `fixtures/moderation-flags.seed.json` for realistic UI and API test scenarios.
+The fixture intentionally includes `pending`, `approved`, `restricted`, and `removed` states with mixed severities.

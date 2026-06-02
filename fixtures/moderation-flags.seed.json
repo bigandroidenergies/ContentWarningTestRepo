@@ -1,0 +1,50 @@
+[
+  {
+    "id": "flag_1001",
+    "contentId": "post_4471",
+    "authorId": "usr_002",
+    "categories": ["violence", "nudity"],
+    "severity": "high",
+    "status": "pending",
+    "reportedBy": "auto-classifier",
+    "createdAt": "2026-06-01T09:20:00Z"
+  },
+  {
+    "id": "flag_1002",
+    "contentId": "post_4503",
+    "authorId": "usr_001",
+    "categories": ["language"],
+    "severity": "medium",
+    "status": "approved",
+    "reportedBy": "usr_003",
+    "createdAt": "2026-06-01T12:05:00Z",
+    "reviewedAt": "2026-06-01T12:18:00Z",
+    "reviewedBy": "mod_001"
+  },
+  {
+    "id": "flag_1003",
+    "contentId": "post_4510",
+    "authorId": "usr_004",
+    "categories": ["self-harm"],
+    "severity": "critical",
+    "status": "removed",
+    "reportedBy": "auto-classifier",
+    "createdAt": "2026-06-01T14:40:00Z",
+    "reviewedAt": "2026-06-01T14:47:00Z",
+    "reviewedBy": "mod_002",
+    "resolutionReason": "Policy violation"
+  },
+  {
+    "id": "flag_1004",
+    "contentId": "post_4522",
+    "authorId": "usr_005",
+    "categories": ["nudity"],
+    "severity": "high",
+    "status": "restricted",
+    "reportedBy": "usr_001",
+    "createdAt": "2026-06-01T16:02:00Z",
+    "reviewedAt": "2026-06-01T16:15:00Z",
+    "reviewedBy": "mod_001",
+    "resolutionReason": "Allowed behind interstitial"
+  }
+]
