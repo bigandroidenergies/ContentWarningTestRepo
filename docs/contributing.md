@@ -17,6 +17,6 @@ See [CONTRIBUTING.md](../CONTRIBUTING.md) in the root of the repository for the 
 | Type | Pattern | Example |
 |------|---------|---------|
 | Feature | `feature/<description>` | `feature/add-interstitial-analytics` |
-| Bug fix | `fix/<description>` | `fix/banner-dismiss-on-mobile` |
+| Bug fix | `fix/<description>` | `fix/banner-dismiss-behavior` |
 | Docs | `docs/<description>` | `docs/update-api-reference` |
 | Release | `release/<version>` | `release/2.0.0` |

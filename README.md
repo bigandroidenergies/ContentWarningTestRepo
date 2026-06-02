@@ -1,8 +1,8 @@
 # ContentWarningTestRepo
 
-> **Test repository for verifying interstitial and banner content warning UI on mobile GitHub.**
+> **Test repository for verifying interstitial and banner content warning UI.**
 
-This repository is intentionally populated with sample data to exercise all major navigation paths in the GitHub mobile app, including issues, pull requests, actions, discussions, releases, and more.
+This repository is intentionally populated with sample data to exercise major GitHub repository surfaces, including issues, pull requests, actions, discussions, releases, and more.
 
 ---
 

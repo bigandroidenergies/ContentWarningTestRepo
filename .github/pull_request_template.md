@@ -27,8 +27,8 @@ Closes #<!-- issue number -->
 
 - [ ] Unit tests pass (`npm run test:unit`)
 - [ ] E2E tests pass (`npm run test:e2e`)
-- [ ] Manually tested on mobile
-- [ ] Manually tested on desktop
+- [ ] Manually tested in browser
+- [ ] Manually tested via API calls
 
 ## Screenshots
 
