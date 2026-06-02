@@ -5,7 +5,6 @@
 
 const express = require('express');
 const { authenticate } = require('../utils/auth');
-const { validateRequest } = require('../utils/validation');
 const usersRouter = require('./users');
 const contentRouter = require('./content');
 

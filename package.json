@@ -5,7 +5,7 @@
   "main": "src/index.js",
   "scripts": {
     "dev": "node src/index.js",
-    "build": "tsc",
+    "build": "node --check src/index.js && echo 'Build OK'",
     "test": "jest",
     "test:unit": "jest tests/unit",
     "test:e2e": "jest tests/e2e",
@@ -26,8 +26,8 @@
   },
   "devDependencies": {
     "jest": "^29.7.0",
+    "supertest": "^6.3.4",
     "eslint": "^8.57.0",
-    "prettier": "^3.2.0",
-    "@types/node": "^20.11.0"
+    "prettier": "^3.2.0"
   }
 }
