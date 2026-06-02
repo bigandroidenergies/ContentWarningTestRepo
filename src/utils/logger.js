@@ -3,7 +3,8 @@
  */
 
 const LOG_LEVELS = { debug: 0, info: 1, warn: 2, error: 3 };
-const MIN_LEVEL = LOG_LEVELS[(process.env.LOG_LEVEL || '').toLowerCase()] ?? LOG_LEVELS.info;
+const envLevel = (process.env.LOG_LEVEL || '').toLowerCase();
+const MIN_LEVEL = envLevel in LOG_LEVELS ? LOG_LEVELS[envLevel] : LOG_LEVELS.info;
 
 function formatMessage(level, message, meta) {
   const timestamp = new Date().toISOString();
