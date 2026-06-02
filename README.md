@@ -53,6 +53,7 @@ See the [docs/](./docs/) folder for detailed guides on:
 - [Architecture overview](./docs/architecture.md)
 - [Contributing guide](./docs/contributing.md)
 - [API reference](./docs/api-reference.md)
+- [Moderation workflow](./docs/moderation-workflow.md)
 
 ## 🤝 Contributing
 
