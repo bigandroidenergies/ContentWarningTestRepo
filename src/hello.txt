@@ -1,0 +1,2 @@
+Hello — deep link test file.
+This file ensures tree/main/src and blob/main/src/hello.txt deep links resolve.
